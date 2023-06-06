@@ -1,0 +1,83 @@
+main {
+    background-color: rgb(132, 76, 76);
+    margin: auto;
+    min-width: 40%;
+    min-height: 75%;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .submission {
+    font-size: small;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 0.85rem;
+  }
+  
+  input {
+    min-width: 45ch;
+    min-height: 2rem;
+    border: none;
+    outline: 1.5px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+  }
+  
+  input:focus {
+    border: none;
+    outline: 1px solid blue;
+    border-radius: 2px;
+  }
+  
+  textarea {
+    min-width: 45ch;
+    min-height: 5rem;
+    border: none;
+    outline: 1.5px solid black;
+    border-radius: 2px;
+    font-family: inherit;
+  }
+  
+  textarea:focus {
+    border: none;
+    outline: 1px solid blue;
+    border-radius: 2px;
+  }
+  
+  span {
+    color: red;
+    font-size: small;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    min-width: 25ch;
+    min-height: 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+  }
